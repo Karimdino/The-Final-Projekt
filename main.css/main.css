@@ -1,10 +1,95 @@
+/*Allgemein*/
+:root{
+    --background-color:#f5ccaa90;
+    --primary-color:#e70f0f;
+    --dark-color:#c20f77;
+    --grey-color:#031f38;
+    --white-color:rgb(227, 130, 130);
+    --brown-color:#b25e21;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+
+
 /*Karim Header*/
-
-
-
-
-
-
+.countainer{
+    position: relative;
+    margin: 20px;
+    padding: 30px;
+    width: 98%;
+    background-color: rgb(247, 235, 235);
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    position: relative;
+    height: 8vh;
+    z-index: 2;
+    width: 100%;
+}
+.list-items{
+    display: flex;
+    flex: 0.7;
+    justify-content: space-between;
+    align-items: center;
+}
+.list {
+    list-style: none;
+}
+.link{
+    text-decoration: none;
+    color: #7d8790;
+    font-weight: bold;
+    position: relative;
+}
+.link::before{
+    content: "";
+    height: 7px;
+    width: 7px;
+    display: none;
+    transition: 0.2s;
+    background: var(--primary-color);
+    transform: translateX(-50%);
+    top: 25px;
+    left: 50%;
+    border-radius: 5px;
+    position: absolute;
+}
+.link:hover{
+    color: var(--primary-color);
+}
+.link:hover::before{
+    display: block;
+}
+.btn-container{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    width: 350px;
+}
+.btn{
+    padding: 15px 30px;
+    background: var(--grey-color);
+    color: var(--white-color);
+    border-radius: 40px;
+    text-decoration: none;
+    border: none;
+    font-weight: bold;
+    
+}
+.btn-secondery:hover{
+    background: var(--primary-color);
+    color: var(--white-color);
+    border-radius: 30%;
+}
 
 
 /*Chris und Karim */
