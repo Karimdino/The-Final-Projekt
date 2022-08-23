@@ -1,3 +1,6 @@
+
+
+
 /*Allgemein*/
 :root{
     --background-color:#f5ccaa90;
@@ -15,6 +18,7 @@
 }
 body{
     overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
 }
 
 
@@ -24,7 +28,10 @@ body{
     margin: 20px;
     padding: 30px;
     width: 98%;
-    background-color: rgb(247, 235, 235);
+    background-image: url(../pic/pic2.jpg);
+    background-position: top;
+    background-size: cover;
+    height: 100px;
 }
 .nav{
     display: flex;
@@ -100,30 +107,51 @@ body{
 
 
 /*Karim FOOTER*/
+
+
 footer{
     padding-top:480px;
-    background-image: url();
     position: relative;
     background-size: cover;
     text-align: center;
+    width: 100%;
+    height: 188px;
 }
 .end-footer{
-
+  position: relative; 
   display: flex;
   color: rgb(28, 4, 4);
   justify-content: center;
   width: 100%;
-  height: 200px;
-  position: relative;
+  font-size: 15px;
+  background-image: url(../pic/pic7.jpg);
+  background-size: cover;
+  background-position: center;
+  
+  
   
 }
 .footer-left{
     width: 25%;
-    font-size: 22px;
+    
     line-height:20px;
 }
 .footer-para{
     margin-top: 10px;
+    font-size: 17px;
+    letter-spacing: 1px;
+    line-height:1;
+    color:#ECE9E6;
+}
+.footer-paraklein{
+    color: #000;;
+}
+.copy-right{
+    margin-top: 10px;
+    color: whitesmoke;
+}
+.footer-span{
+    color: var(--primary-color);
 }
 .footer-middle{
     width: 25%;
@@ -136,6 +164,8 @@ footer{
     justify-content: center;
     letter-spacing: 23px;
     margin-top: 20px;
+    font-size: 22px;
+    cursor: pointer;
     
 }
 footer ul {
@@ -145,6 +175,5 @@ footer ul {
 footer ul li{
     margin-top: 10px;
     cursor: pointer;
-    color: var(--grey-color);
-    font-size: 22px;
+    color:#ECE9E6;
 }
