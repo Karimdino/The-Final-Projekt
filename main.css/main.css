@@ -17,6 +17,9 @@
     box-sizing: border-box;
     
 }
+html{
+    font-size: 10px;
+}
 body{
     overflow-x: hidden;
     font-family: 'Poppins', sans-serif;
@@ -106,9 +109,17 @@ article{
     outline: 1px solid greenyellow;
 }
 .couple img{
+    position: relative;
     width: 60vw;
-    height: 40rem;
+    height: 60rem;
+    z-index: -10;
 }
+.heading-ctn h1{
+    position: absolute;
+    top: ;
+    z-index: 5;
+}
+
 
 
 
