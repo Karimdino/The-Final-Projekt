@@ -15,23 +15,30 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    outline: 1px solid greenyellow;
+    
+    
+}
+html{
+    font-size: 10px;
 }
 body{
     overflow-x: hidden;
     font-family: 'Poppins', sans-serif;
+    
 }
 
 
 /*Karim Header*/
 .countainer{
     position: relative;
-    margin: 20px;
-    padding: 30px;
+    margin: 2rem;
+    padding: 3rem;
     width: 98%;
     background-image: url(../pic/pic2.jpg);
     background-position: top;
     background-size: cover;
-    height: 100px;
+    height: 10rem;
 }
 .nav{
     display: flex;
@@ -59,14 +66,14 @@ body{
 }
 .link::before{
     content: "";
-    height: 7px;
-    width: 7px;
+    height: .7rem;
+    width: .7rem;
     display: none;
     transition: 0.2s;
     background: var(--primary-color);
-    top: 25px;
+    top: 2.5rem;
     left: 50%;
-    border-radius: 33px;
+    border-radius: 3.3rem;
     position: absolute;
 }
 .link:hover{
@@ -78,14 +85,14 @@ body{
 .btn-container{
     display: flex;
     justify-content: space-between;
-    padding-left: 100px;
-    width: 350px;
+    padding-left: 10rem;
+    width: 35rem;
 }
 .btn{
-    padding: 15px 30px;
+    padding: 1.5rem 3rem;
     background: var(--grey-color);
     color: var(--white-color);
-    border-radius:30px;
+    border-radius:3rem;
     text-decoration: none;
     border: none;
     font-weight: bold;
@@ -99,6 +106,22 @@ body{
 
 
 /*Chris und Karim */
+
+article{
+    width: 60vw;
+}
+.couple img{
+    position: relative;
+    width: 60vw;
+    height: 60rem;
+    z-index: -10;
+}
+.heading-ctn h1{
+    position: absolute;
+    top: ;
+    z-index: 5;
+}
+
 
 
 
