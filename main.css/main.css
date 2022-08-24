@@ -15,7 +15,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    outline: 1px solid greenyellow;
+    /* outline: 1px solid greenyellow; */
     
     
     
@@ -229,10 +229,52 @@ article{
 }
 
 
+/*Die Cards Start*/
+
+.content{
+
+    display: flex;
+    justify-content: center;
+    flex-direction: row ;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+.card-titel{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    font-size: 40px;
     
+}
+.card{
+    background-color: rgb(243, 231, 231);
+    width: 33.25em;
+    box-shadow: 0 25px rgba(1 1 1 / 15%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.8s ease;
+}
+.card:hover {
+   transform: scale(1.1);
+}
+.icon{
+    color: blue;
+    text-align: center;
+    font-size: 8em;
+    cursor: pointer;
+}
+.info h3{
+    color: rgb(216, 2, 2);
+    font-weight: 100px;
+    margin: 10px;
+    font-size: 2em;
+    justify-content: center;
+    display: flex;
+}
 
 
-
+/*Die Cards End*/
 
 
 
