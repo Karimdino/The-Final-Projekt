@@ -18,6 +18,7 @@
     outline: 1px solid greenyellow;
     
     
+    
 }
 html{
     font-size: 10px;
@@ -117,12 +118,14 @@ article{
     position: relative;
     opacity: .8;
 }
+
 .heading-ctn h1{
     position: absolute;
     top: 20rem;
     left: 5rem;
     z-index: 5;
     font-size: 5rem;
+
 }
 .heading-ctn h2{
     position: absolute;
@@ -130,7 +133,101 @@ article{
     left: 5rem;
     right: 150rem;
     z-index: 5;
+    width: 30rem;
+    overflow: hidden;
 }
+.icon-ctn{
+    display: flex;
+    height: 20rem;
+    margin-top: -3.5rem;
+}
+.icon-ctn p{
+    font-size: 1.5rem;
+    padding: 2rem;
+    text-align: center;
+}
+.location{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.location figure{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 50%;
+    width: 5rem;
+    height: 5rem;
+}
+.party{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.party figure{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 50%;
+    width: 5rem;
+    height: 5rem;
+}
+.workshop{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.workshop figure{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 50%;
+    width: 5rem;
+    height: 5rem;
+}
+.section-1-ctn{
+    margin-top: 5rem;
+}
+.section-1{
+    display: flex;
+    align-items: center;
+}
+.section-1 img{
+    width: 35rem;
+    height:25rem
+    
+}
+.section-1 p{
+    font-size: 1.5rem;
+    padding: 5rem;
+}
+.section-2-ctn{
+    margin-top: 5rem;
+}
+.section-2{
+    display: flex;
+    align-items: center;
+}
+.section-2 img{
+    width: 35rem;
+    height: 25rem;
+}
+.section-2 p{
+    font-size: 1.5rem;
+    padding: 5rem;
+}
+.registration-btn{
+
+
+}
+
 
     
 
