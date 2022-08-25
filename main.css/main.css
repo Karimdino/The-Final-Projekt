@@ -249,14 +249,14 @@ article{
 .card{
     background-color: rgb(243, 231, 231);
     width: 33.25em;
-    box-shadow: 0 25px rgba(1 1 1 / 15%);
+    box-shadow: 14px 23px #942323f0;
     border-radius: 10px;
     padding: 25px;
-    margin: 15px;
-    transition: 0.8s ease;
+    margin: 33px;
+    transition: .8s ease;
 }
 .card:hover {
-   transform: scale(1.1);
+    transform: scale(1.1);
 }
 .icon{
     color: blue;
