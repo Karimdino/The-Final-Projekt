@@ -9,6 +9,7 @@
     --grey-color:#031f38;
     --white-color:rgb(227, 130, 130);
     --brown-color:#b25e21;
+    
 }
 
 *{
@@ -61,7 +62,7 @@ body{
 }
 .link{
     text-decoration: none;
-    color: #7d8790;
+    color: #035195;
     font-weight: bold;
     position: relative;
 }
@@ -77,18 +78,13 @@ body{
     border-radius: 3.3rem;
     position: absolute;
 }
-.link:hover{
-    color: var(--primary-color);
-}
-.link:hover::before{
-    display: block;
-}
+
 
 /*LOGIN Buttons Start*/
 a{
     position: relative;
-    background: #444;
-    color: #fff;
+    background: rgb(178, 171, 171);
+    color: rgb(190, 8, 69);
     text-decoration: none;
     text-transform: uppercase;
     font-size: 1.5em;
@@ -100,13 +96,13 @@ a:hover{
     letter-spacing: 0.25em;
     background: var(--clr);
     color: var(--clr);
-    box-shadow: 0 0 35px var(--clr);
+    box-shadow: 0 0 35px var(--grey-color);
 }
 a::before{
     content: "";
     position: absolute;
     inset: 2px;
-    background: #27282c;
+    background: #c1c5d7;
 }
 a span{
     position: relative;
