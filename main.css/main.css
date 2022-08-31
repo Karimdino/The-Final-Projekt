@@ -35,6 +35,9 @@ body{
     color: #035195;
     margin-top: 20px;
 }
+.logo:hover{
+    color: rgb(12, 12, 12);
+}
 @keyframes down{
     0%{
         transform: translatex(-80px);
@@ -364,8 +367,8 @@ footer{
     background-size: cover;
     text-align: center;
     width: 100%;
-    height: 188px;
-    margin: ;
+    height: 100px;
+    margin:5px ;
     
 }
 .end-footer{
@@ -406,7 +409,38 @@ footer{
 }
 .footer-right{
     width: 25%;
+    height: 300px;
+    position: relative;
 }
+.footer-form{
+    position: absolute;
+}
+.footer-contact{
+    font-size:20px;
+    color: #035195;
+}
+.footer-label{
+    margin: 4px 3px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    border-radius: 5px;
+}
+.footer-input{
+    width: 100%;
+    height: 30px;
+    border: 2px solid transparent;
+}
+.footer-btn{
+    width: 40%;
+    margin-top: 5px;
+    background-color:#035195;
+    color: #1e0012;
+    font-size: 20px;
+    border-radius: 6px;
+    cursor: pointer;
+
+}
+
 .social-icons{
     display: flex;
     justify-content: center;
@@ -425,6 +459,7 @@ footer ul li{
     cursor: pointer;
     color:#ECE9E6;
 }
+
 
 /*Responsive*/
 
