@@ -182,10 +182,11 @@ a:hover i::after{
 /*Chris und Karim */
 
 article{
-    width: 60vw;
+    width: 90vw;
+    margin-top: 5rem;
 }
 .couple img{
-    width: 60vw;
+    width: 90vw;
     height: 50rem;
     z-index: -10;
     position: relative;
@@ -296,9 +297,19 @@ article{
     font-size: 1.5rem;
     padding: 5rem;
 }
-.registration-btn{
-
-
+.registration_ctn-card{
+    background: burlywood;
+    height: 40rem;
+    width: 40rem;
+    display: flex;
+    flex-direction: column;
+}
+.male_btn{
+    background: cornflowerblue;
+    padding: 3rem 10rem;
+}
+.female_btn{
+    
 }
 
 
