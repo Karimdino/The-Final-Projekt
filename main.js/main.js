@@ -12,3 +12,19 @@ if (hourNow > 18) {
     greeting='Guten Morgen Chris , Einen fleissigen tag wünsche ich dir  !'
 }
 document.write = ('<h3>'+greeting+'</h3>');
+
+
+//++++++++++++++++++++++++++++
+
+const image = ['../pic/pic10.jpg', '../pic/pic11.jpg', '../pic/pic12.jpg', '../pic/pic13.jpg', '../pic/pic14.jpg']
+const registrationCtn = document.querySelector('.registration_ctn')
+
+function showImage(image){
+    const randomImage = Math.floor(Math.random() * image.length - 1)
+    
+
+
+
+}
+
+
