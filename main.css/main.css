@@ -346,6 +346,23 @@ article{
     align-self: center;
     height: 3rem;
 }
+/* SLIDESHOW */
+.slides{
+    width: 100%;
+    height: 30rem;
+    display: none;
+}
+.animate-left{
+    position: relative;
+    animation: animateleft 0.8s;
+}
+@keyframes animateleft {
+    from { left: -500px; opacity: 0;}
+    to { left: 0; opacity: 1;}
+}
+
+
+
 
 /*Die Cards Start*/
 
