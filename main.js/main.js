@@ -3,17 +3,18 @@
 
 
 //++++++++++++++++++++++++++++
-let count = 0
-const slides = =>{
-    let j
+
+const slides = ()=>{
+    let count = 0
+    let i
     let pictures = document.querySelectorAll('.slides')
-    for(j = 0; j < pictures.length; j++){
-        pictures[j].style.display = 'none'
+    for(i = 0; i < pictures.length; i++){
+        pictures[i].style.display = 'none'
     }
     count++
     if(count > pictures.length) {count = 1}
     pictures[count-1].style.display = 'block'
-    setTimeout("slides()", 3500)
+    setTimeout(slides, 3500)
 }
 slides()
 
