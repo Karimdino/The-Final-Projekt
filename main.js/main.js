@@ -4,7 +4,7 @@
 
 //++++++++++++++++++++++++++++
 
-const slides = ()=>{
+const slidePic = ()=>{
     let count = 0
     let i
     let pictures = document.querySelectorAll('.slides')
@@ -12,11 +12,11 @@ const slides = ()=>{
         pictures[i].style.display = 'none'
     }
     count++
-    if(count > pictures.length) {count = 1}
-    pictures[count-1].style.display = 'block'
-    setTimeout(slides, 3500)
+    if(count === pictures.length) {count = 0}
+    pictures[count].style.display = 'block'
+    setTimeout(slidePic, 3500)
 }
-slides()
+slidePic()
 
 
 
