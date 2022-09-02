@@ -3,9 +3,9 @@
 
 
 //++++++++++++++++++++++++++++
-
+let count = 0
 const slidePic = ()=>{
-    let count = 0
+    
     let i
     let pictures = document.querySelectorAll('.slides')
     for(i = 0; i < pictures.length; i++){
