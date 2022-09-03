@@ -181,6 +181,35 @@ a:hover i::after{
 
 
 
+.form-login{
+    float: right;
+    margin-top: 300px;
+    border: 4px solid red;
+
+}
+
+.username-login{
+    width: 100%;
+    height: 30px;
+    margin-top: 4px;
+}
+.password-login{
+    width: 100%;
+    height: 30px;
+    margin-top: 4px;
+}
+.login-click{
+    font-size: 30px;
+    background-color: red;
+    background-size: cover;
+    width: 50%;
+    text-align: center;
+}
+.log{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
 
 
 
